@@ -1,0 +1,37 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="C:/FlutterTutorial/flutter_designing/flight_app" />
+        <option value="C:/FlutterTutorial/music_player/music_player" />
+        <option value="C:/FlutterTutorial/Movie App/movie_app" />
+        <option value="C:/FlutterTutorial/source for list view/First_App/flutter_app" />
+        <option value="C:/FlutterTutorial/First_App/flutter_app" />
+        <option value="C:/currentProject/All E_payments/merchantMobile" />
+        <option value="C:/currentProject/All E_payments/delegateMobile" />
+        <option value="C:/FlutterTutorial/NoteApp/note_app" />
+        <option value="C:/Fawry/PrinterOperation" />
+        <option value="C:/CapstoneDesign/QuickCalculator" />
+        <option value="$USER_HOME$/Downloads/Calculator_App-master/Calculator_App-master" />
+        <option value="C:/currentProject/All E_payments/TestProject" />
+        <option value="C:/currentProject/All E_payments/merchantMobiprint" />
+        <option value="C:/currentProject/ShamselectronicPayement" />
+        <option value="C:/KotlinAndroid/SimpleEcommerce" />
+        <option value="C:/KotlinAndroid/ForeCast" />
+        <option value="$USER_HOME$/Downloads/ppd_sell_v15/test" />
+        <option value="$USER_HOME$/Downloads/ppd_sell_v15/ppd_sell_v15" />
+        <option value="C:/Android Design/NiceList" />
+        <option value="C:/Android Design/NiceRecyclerView" />
+        <option value="C:/Android Design/TextSpeech" />
+        <option value="C:/Android Design/AquaDry/AquaDry" />
+        <option value="C:/Fawry/BakingApp" />
+        <option value="C:/NTLProject/BakingApp" />
+        <option value="C:/NTLProject/Movie App Stage _2" />
+        <option value="C:/currentProject/MyChatApp" />
+        <option value="C:/KotlinAndroid/SurveyApp" />
+        <option value="C:/NTLProject/Emojy/anotherempjy" />
+        <option value="C:/NTLProject/Emojy/emojyapp" />
+        <option value="$USER_HOME$/Downloads/forecast-mvvm-android-kotlin-master/forecast-mvvm-android-kotlin-master" />
+        <option value="C:/KotlinAndroid/ForecastApp" />
+        <option value="C:/KotlinAndroid/TicTacToe" />
+        <option value="C:/currentProject/RXJavaE

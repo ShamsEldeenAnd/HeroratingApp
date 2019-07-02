@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/backround"
+	tools:context=".MainActivity">
+	
+	<ImageView
+		android:id="@+id/charplace"
+		android:layout_width="200dp"
+		android:layout_height="200dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="30dp"
+		android:layout_marginEnd="8dp"
+		android:src="@drawable/cool"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<ImageView
+		android:id="@+id/stripe"
+		android:layout_width="360dp"
+		android:layout_height="340dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginEnd="8dp"
+		android:elevation="-1dp"
+		android:src="@drawable/glitter"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.495"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	
+	<LinearLayout
+		android:id="@+id/submit_area"
+		android:layout_width="match_parent"
+		android:layout_height="190dp"
+		android:layout_marginStart="16dp"
+		android:layout_marginTop="60dp"
+		android:layout_marginEnd="16dp"
+		android:background="@drawable/bgsubmit"
+		android:elevation="5dp"
+		android:orientation="vertical"
+		android:textAlignment="center"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/charplace">
+		
+		<TextView
+			android:id="@+id/titleRate"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:text="Rate The Service"
+			android:textAlignment="center"
+			android:textColor="#848484"
+			android:textSize="20sp" />
+		
+		<RatingBar
+			android:id="@+id/rateStars"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="55dp"
+			android:layout_marginTop="12dp"
+			android:layout_marginBottom="10dp"
+			android:numStars="5"
+			android:rating="3"
+			android:stepSize="1"
+			android:theme="@style/RatingBar" />
+		
+		<TextView
+			android:id="@+id/resultRate"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Good Job"
+			android:textAlignment="center"
+			android:textColor="#848484"
+			android:textSize="32sp" />
+	</LinearLayout>
+	
+	<Button
+		android:id="@+id/btnfeedBack"
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:layout_marginStart="16dp"
+		android:layout_marginTop="12dp"
+		android:layout_marginEnd="16dp"
+		android:background="@drawable/bgbtnfeed"
+		android:elevation="5dp"
+		android:text="Give Feedback"
+		android:textAllCaps="false"
+		android:textColor="#8E7324"
+		android:textSize="22sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="1.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/submit_area" />
+
+</android.support.constraint.ConstraintLayout>
